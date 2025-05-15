@@ -133,7 +133,7 @@ $(document).ready(function () {
     
         request.onsuccess = function () {
             console.log('Logout successful');
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
         };
     });
     
